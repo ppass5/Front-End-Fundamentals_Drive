@@ -1,0 +1,23 @@
+
+body {
+  background: red;
+}
+
+@mixin media($width){
+@media only screen and (max-width:$width){
+  @content;
+}
+
+}
+
+body {
+  @include media(320px){
+    background: blue;
+  }
+  @include media(760px){
+    background: pink;
+  }
+  @include media(1200px){
+    background: green;
+  }
+}

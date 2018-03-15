@@ -1,0 +1,14 @@
+body {
+  background: red; }
+
+@media only screen and (max-width: 320px) {
+  body {
+    background: blue; } }
+@media only screen and (max-width: 760px) {
+  body {
+    background: pink; } }
+@media only screen and (max-width: 1200px) {
+  body {
+    background: green; } }
+
+/*# sourceMappingURL=master.css.map */
