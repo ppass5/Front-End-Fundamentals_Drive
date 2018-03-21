@@ -545,35 +545,112 @@ overflow: hidden;
   border-right: 80px solid #27a15f;
   border-left: 80px solid #2b70c7;
   width: 80px;
+  position: relative;
+
 }
 
 
-.stv-diamond {
+.stv-diamond1 {
 	width: 0;
 	height: 0;
-	border: 50px solid transparent;
-	border-bottom-color: red;
+	border: 20px solid transparent;
+	border-bottom-color: #279f5e;
 	position: relative;
-	top: -50px;
+	top: 50px;
+  left: -40px;
 }
-.stv-diamond:after {
+.stv-diamond1:after {
 	content: '';
 	position: absolute;
-	left: -50px;
-	top: 50px;
+	left: -20px;
+	top: 20px;
 	width: 0;
 	height: 0;
-	border: 50px solid transparent;
-	border-top-color: red;
+	border: 20px solid transparent;
+	border-top-color: #279f5e;
+
+}
+
+.stv-diamond2 {
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #279f5e;
+	position: relative;
+	top: 10px;
+  left: 0px;
+}
+.stv-diamond2:after {
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #279f5e;
+
+}
+.stv-diamond3 {
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #279f5e;
+	position: relative;
+	top: 0px;
+  left: -20px;
+}
+.stv-diamond3:after {
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #279f5e;
+
 }
 
 
 .solomonislands{
-  box-sizing: border-box;
+  position: relative;
   width: 260px;
   background-size: 80px 80px;
-  background-color: #239e35;
+  background-color: #f7d41b;
+  overflow: hidden;
+
 }
+
+.solomonislands .soltoptri{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width:0;
+  height:0;
+  border-top: 300px solid #254dba;
+  border-right: 300px solid transparent;
+}
+.solomonislands .solbottri{
+  position: absolute;
+  left: 40px;
+  bottom: 0px;
+  width:0px;
+  height:0px;
+  border-bottom: 300px solid #279f5e;
+  border-left: 300px solid transparent;
+}
+.solomonislands .solelements{
+  position: absolute;
+  left: 20px;
+  bottom: -10px;
+  width: 260px;
+  height: 200px;
+  background: url(../images/sol.png);
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+}
+
 .tuvalu{
   box-sizing: border-box;
   width: 260px;
@@ -586,15 +663,25 @@ overflow: hidden;
   background-size: 80px 80px;
   background-color: #13197e;
 }
+
 .bahrain{
   width: 260px;
   background-size: 80px 80px;
   background-color: #c80029;
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid #000; */
+
 }
-.bahrain{
-  width: 260px;
-  background-size: 80px 80px;
-  background-color: #c80029;
+
+.bahrain .bahrrect{
+  position: absolute;
+  width:0;
+  height:0;
+  left:0;
+  bottom:0;
+  border-left: 60px solid white;
+
 }
 .belgium{
   box-sizing: border-box;
@@ -655,13 +742,41 @@ overflow: hidden;
 }
 .kuwait{
   box-sizing: border-box;
+  position: relative;
+  border-top: 70px solid green;
+  border-bottom: 70px solid red;
   width: 260px;
-  background-size: 80px 80px;
-  background-color:#1a7c39;
+  background-color:white;
 }
+
+
+.kuwait .ktrap {
+  position: absolute;
+	border-bottom: 100px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+
+}
+
+
 .lesotho{
-  box-sizing: border-box;
   width: 260px;
+  position: relative;
   background-size: 80px 80px;
-  background-color:#22983f;
+  background-color:white;
+  border-top: 60px solid blue;
+  border-bottom: 60px solid green;
+}
+.lesotho .lescircle{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 95px;
+  bottom: 15px;
+  background: url(../images/les.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
 }

@@ -1,0 +1,125 @@
+
+h1{
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 30px;
+  align-content: center;
+}
+* {
+  box-sizing: border-box; }
+b{
+  background-color: #fdb4b0;
+  background-repeat:repeat;
+}
+
+.background{
+ display: inline-block;
+ max-width: 80%;
+}
+
+.background1{
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 1300px;
+  height: 900px;
+  position: relative;
+  cursor:url(../images/chopsticks.png), auto;
+
+}
+
+.resize{
+  height:300px;
+}
+
+.resize2{
+  width: 200px;
+}
+
+.resize3{
+  height:200px;
+}
+
+.resize4{
+  height:250px;
+}
+
+.delay{
+  animation-duration: 1.5s;
+}
+
+.munchkin1{
+  display: block;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 550px;
+  bottom: 850px;
+
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  width: 1024px;
+  font: normal 26px/50px arial;
+  color: #000;
+  height: 50px;
+  background-color: #2FB43D;
+  border: 1px solid #2DFF2D;
+  border-color: #2DFF2D #22882D #22882D #22882D;
+  text-align: center;
+}
+
+.munchkin2{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 470px;
+  bottom: 530px;
+
+}
+.munchkin3{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 800px;
+  bottom: 800px;
+}
+.munchkin4{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 120px;
+  bottom: 470px;
+}
+.munchkin5{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 710px;
+  bottom: 500px;
+
+}
+.munchkin6{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 900px;
+  bottom: 450px;
+}
+.munchkin7{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 200px;
+  bottom: 700px;
+
+}
+.munchkin8{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 490px;
+  bottom: 390px;
+}
